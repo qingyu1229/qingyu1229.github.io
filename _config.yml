@@ -22,7 +22,7 @@ blog:
     description: Just do it # 博客描述
     title: 梁擎宇的博客 # 网页标题
     url: qingyu1229.github.io # 博客地址
-    duoshuo:  # 多说ID
+    duoshuo: liangqingyu  # 多说ID
     tongji: 339c3dde0596b995600e5fed42918ad8 # 百度统计ID
     qiniu: # 七牛云地址
 author:
