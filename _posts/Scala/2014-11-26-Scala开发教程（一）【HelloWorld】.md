@@ -6,7 +6,7 @@ date: 2014-11-26
 
 ---
 
-Scala开发教程（一）【HelloWord】
+##Scala开发教程（一）【HelloWord】
 
 标签： Scala 开发教程
 
