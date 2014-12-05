@@ -11,5 +11,8 @@ date: 2014-11-18
 *****
 
 我：{{site.author.name}}
+email：{{site.author.email}}
+微博：{{site.author.weibo}}
+Github：{{site.author.github}}
 
 
