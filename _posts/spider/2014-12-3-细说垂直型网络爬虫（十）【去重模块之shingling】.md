@@ -1,12 +1,12 @@
 ---
 layout: post
-title: 细说垂直型网络爬虫（八）【去重模块之shingling】
+title: 细说垂直型网络爬虫（十）【去重模块之shingling】
 category: 细说垂直型网络爬虫
 date: 2014-12-3
 
 ---
 
-##细说垂直型网络爬虫（八）【去重模块之shingling】
+##细说垂直型网络爬虫（十）【去重模块之shingling】
 
 标签： 网络爬虫 文本去重
 
