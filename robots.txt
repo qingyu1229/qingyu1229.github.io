@@ -1,4 +1,4 @@
 User-Agent: *
 Disallow:
-Sitemap: http://daodaoliang.github.io/sitemap.txt
+Sitemap: http://qingyu1229.github.io/sitemap.txt
 
