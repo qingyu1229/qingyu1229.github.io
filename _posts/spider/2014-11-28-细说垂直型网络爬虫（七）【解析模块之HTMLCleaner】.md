@@ -18,11 +18,11 @@ HtmlCleaner是一个开源的Java语言的Html文档解析器，用户可以提�
 
 maven:
 {% highlight xml %}
-        <dependency>
-            <groupId>net.sourceforge.htmlcleaner</groupId>
-            <artifactId>htmlcleaner</artifactId>
-            <version>2.10</version>
-        </dependency>
+<dependency>
+     <groupId>net.sourceforge.htmlcleaner</groupId>
+     <artifactId>htmlcleaner</artifactId>
+     <version>2.10</version>
+</dependency>
 {% endhighlight %}
 
 
