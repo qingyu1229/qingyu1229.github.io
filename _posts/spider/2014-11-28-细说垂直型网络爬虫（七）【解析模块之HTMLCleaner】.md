@@ -50,7 +50,7 @@ HtmlCleaner和Jsoup很相似，也有很多通过元素特征，例如ID、Class
 |//title[@lang='eng']|	选取所有 title 元素，且这些元素拥有值为 eng 的 lang 属性。|
 |/bookstore/book[price>35.00]|	选取 bookstore 元素的所有 book 元素，且其中的 price 元素的值须大于 35.00。|
 |/bookstore/book[price>35.00]/title	|选取 bookstore 元素中的 book 元素的所有 title 元素，且其中的 price 元素的值须大于 35.00。|
-|//book/title \|  //book/price|	选取 book 元素的所有 title 和 price 元素。|
+|//book/title\|//book/price|	选取 book 元素的所有 title 和 price 元素。|
 
 
 
