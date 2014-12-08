@@ -29,10 +29,8 @@ maven:
 HtmlCleaner和Jsoup很相似，也有很多通过元素特征，例如ID、Class、Attribute等属性获取相应的元素。与Jsoup的select（String cssQuery）
 方法不同的是evaluateXPath(String xpath)是通过Xpath去获取元素的，这里主要介绍Xpath。
 
-|eee|ee|
+|路径表达式|表达意义 |
 |:-----|:----|
-|oo|oo|
-
 | 路径表达式 | 表达意义 |
 | :--------: |: --------|
 | / | 从根节点选取。 |
