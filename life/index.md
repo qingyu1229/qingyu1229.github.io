@@ -1,6 +1,6 @@
 ---
 layout: life
-date: 0
+date: {{site.time}}
 title: 生活轨迹记录
 ---
 
