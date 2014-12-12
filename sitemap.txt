@@ -2,5 +2,7 @@
 title: sitemap.txt
 permalink: sitemap.txt
 ---
-{% for page in site.pages reversed %}http://{{ site.blog.url }}{{ page.url }}{% endfor %}
-{% for post in site.posts %}http://{{ site.blog.url }}{{ post.url }}{% endfor %}
+{% for page in site.pages reversed %}
+http://{{ site.blog.url }}{{ page.url }}{% endfor %}
+{% for post in site.posts %}
+http://{{ site.blog.url }}{{ post.url }}{% endfor %}
