@@ -23,7 +23,7 @@ blog:
     title: 梁擎宇的博客 # 网页标题
     url: qingyu1229.github.io # 博客地址
     duoshuo: liangqingyu  # 多说ID
-    tongji: 3F8d30b14c805aa6477e40b3b82084d201 # 百度统计ID
+    tongji: 8d30b14c805aa6477e40b3b82084d201 # 百度统计ID
     qiniu: # 七牛云地址
 author:
     name: 梁擎宇 # 作者名称
