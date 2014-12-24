@@ -229,6 +229,4 @@ LaTeX的数学公式有两种：行中公式和独立公式。行中公式放在
 \mit 　数学斜体　　　　　　\tt　　打字机字体
 \sc　　小体大写字母
 
-15．WordPress的MathJax插件
-
-下载：MathJax-LaTeX插件
+[查看原文](http://iori.sinaapp.com/17.html/comment-page-1?replytocom=2)
