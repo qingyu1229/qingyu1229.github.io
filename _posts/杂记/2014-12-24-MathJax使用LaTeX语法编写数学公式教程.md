@@ -66,27 +66,27 @@ LaTeX的数学公式有两种：行中公式和独立公式。行中公式放在
 
 例子：f(x_1,x_2,\ldots,x_n) = x_1^2 + x_2^2 + \cdots + x_n^2
 
-显示：f(x_1,x_2,\ldots,x_n) = x_1^2 + x_2^2 + \cdots + x_n^2
+显示：$$f(x_1,x_2,\ldots,x_n) = x_1^2 + x_2^2 + \cdots + x_n^2$$
 7．如何输入矢量
 
 例子：\vec{a} \cdot \vec{b}=0
 
-显示：\vec{a} \cdot \vec{b}=0
+显示：$$\vec{a} \cdot \vec{b}=0$$
 8．如何输入积分
 
 例子：\int_0^1 x^2 {\rm d}x
 
-显示：\int_0^1 x^2 {\rm d}x
+显示：$$\int_0^1 x^2 {\rm d}x$$
 9．如何输入极限运算
 
 例子：\lim_{n \rightarrow +\infty} \frac{1}{n(n+1)}
 
-显示：\lim_{n \rightarrow +\infty} \frac{1}{n(n+1)}
+显示：$$\lim_{n \rightarrow +\infty} \frac{1}{n(n+1)}$$
 10．如何输入累加、累乘运算
 
 例子：\sum_{i=0}^n \frac{1}{i^2}　和　\prod_{i=0}^n \frac{1}{i^2}
 
-显示：\sum_{i=0}^n \frac{1}{i^2}　和　\prod_{i=0}^n \frac{1}{i^2}
+显示：$$\sum_{i=0}^n \frac{1}{i^2}　和　\prod_{i=0}^n \frac{1}{i^2}$$
 11．如何进行公式应用
 
 先要在［mathjax］后添加：
@@ -101,7 +101,7 @@ LaTeX的数学公式有两种：行中公式和独立公式。行中公式放在
 ＜/script＞
 例子：＼begin{equation}\label{equation1}r = r_F+ \beta(r_M – r_F) + \epsilon＼end{equation}
 
-显示：\begin{equation}\label{equation1}r = r_F+ \beta(r_M – r_F) + \epsilon\end{equation}
+显示：$$\begin{equation}\label{equation1}r = r_F+ \beta(r_M – r_F) + \epsilon\end{equation}$$
 引用：请见公式(\ref{equation1})
 
 12．如何输入希腊字母
