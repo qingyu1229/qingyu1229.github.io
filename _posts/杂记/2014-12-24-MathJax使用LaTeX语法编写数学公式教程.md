@@ -3,6 +3,7 @@ layout : post
 title: MathJax使用LaTeX语法编写数学公式教程
 category : 杂记
 duoshuo: true
+math: true
 date : 2014-12-24
 ---
 
