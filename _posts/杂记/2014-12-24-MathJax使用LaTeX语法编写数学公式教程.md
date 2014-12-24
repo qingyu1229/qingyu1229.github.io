@@ -32,7 +32,7 @@ LaTeX的数学公式有两种：行中公式和独立公式。行中公式放在
 
 例子：x^{y^z}=(1+{\rm e}^x)^{-2xy^w}
 
-显示：x^{y^z}=(1+{\rm e}^x)^{-2xy^w}
+显示：$$x^{y^z}=(1+{\rm e}^x)^{-2xy^w}$$
 另外，如果要在左右两边都有上下标，可以用\sideset命令。
 
 例子：\sideset{^1_2}{^3_4}\bigotimes
@@ -44,22 +44,22 @@ LaTeX的数学公式有两种：行中公式和独立公式。行中公式放在
 
 例子：f(x,y,z) = 3y^2z \left( 3+\frac{7x+5}{1+y^2} \right)
 
-显示：f(x,y,z) = 3y^2z \left( 3+\frac{7x+5}{1+y^2} \right)
+显示：$$f(x,y,z) = 3y^2z \left( 3+\frac{7x+5}{1+y^2} \right)$$
 有时候要用\left.或\right.进行匹配而不显示本身。
 
 例子：\left. \frac{{\rm d}}u}{{\rm d}}x} \right| _{x=0}
 
-显示：\left. \frac{{\rm d}}u}{{\rm d}}x} \right| _{x=0}
+显示：$$\left. \frac{{\rm d}}u}{{\rm d}}x} \right| _{x=0}$$
 4．如何输入分数
 
 例子：\frac{1}{3}　或　1 \over 3
 
-显示：\frac{1}{3}　或　1 \over 3
+显示：$$\frac{1}{3}$$　或　$$1 \over 3$$
 5．如何输入开方
 
 例子：\sqrt{2}　和　\sqrt[n]{3}
 
-显示：\sqrt{2}　和　\sqrt[n]{3}
+显示：$$\sqrt{2}$$　和　$$\sqrt[n]{3}$$
 6．如何输入省略号
 
 数学公式中常见的省略号有两种，\ldots表示与文本底线对齐的省略号，\cdots表示与文本中线对齐的省略号。
