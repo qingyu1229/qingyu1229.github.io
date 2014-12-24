@@ -46,9 +46,9 @@ LaTeX的数学公式有两种：行中公式和独立公式。行中公式放在
 显示：f(x,y,z) = 3y^2z \left( 3+\frac{7x+5}{1+y^2} \right)
 有时候要用\left.或\right.进行匹配而不显示本身。
 
-例子：\left. \frac{{\rm d}u}{{\rm d}x} \right| _{x=0}
+例子：\left. \frac{{\rm d}}u}{{\rm d}}x} \right| _{x=0}
 
-显示：\left. \frac{{\rm d}u}{{\rm d}x} \right| _{x=0}
+显示：\left. \frac{{\rm d}}u}{{\rm d}}x} \right| _{x=0}
 4．如何输入分数
 
 例子：\frac{1}{3}　或　1 \over 3
