@@ -39,4 +39,12 @@ title: 断断续续的记录我的一生
 
 ******
 
-
+一些计划：
+博客近期计划更新：
+- redis入门
+- Docker入门
+- 将Word转换为结构化的HTML节点
+- Lucene/Solr入门
+- hadoop入门
+- 自然语言处理基础
+- Google Guava
