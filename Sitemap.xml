@@ -9,7 +9,7 @@ xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitem
 xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
     <url>
-        <loc>http://example.com</loc>
+        <loc>http://liangqingyu.com</loc>
         <lastmod>{{ site.time | date: "%Y-%m-%d" }}</lastmod>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
@@ -17,16 +17,16 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
     {% for post in site.posts %}
     <url>
-        <loc>http://example.com{{ post.url }}/</loc>
+        <loc>http://liangqingyu.com{{ post.url }}/</loc>
         <lastmod>{{ post.date | date: "%Y-%m-%d" }}</lastmod>
         <changefreq>monthly</changefreq>
-        <priority>0.2</priority>
+        <priority>0.8</priority>
     </url>
     {% endfor %}
 
     {% for page in site.html_pages %}
     <url>
-        <loc>http://example.com{{ page.url }}</loc>
+        <loc>http://liangqingyu.com{{ page.url }}</loc>
         <lastmod>{{ site.time | date: "%Y-%m-%d" }}</lastmod>
         {% if page.changefreq %}<changefreq>{{ page.changefreq }}</changefreq>{% endif %}
         {% if page.priority %}<priority>{{ page.priority }}</priority>{% endif %}
