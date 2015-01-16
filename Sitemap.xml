@@ -1,13 +1,7 @@
----
-title: Sitemap.xml
-permalink: Sitemap.xml
- ---
-
 <?xml version="1.0" encoding="utf-8"?>
 <!-- XML文件需以utf-8编码-->
 <urlset>
     <!--必填-->
-
     {% for page in site.pages reversed %}
     <url>
         <!--必填,定义某一个链接的入口，每一条数据必须要用<url>和</url>来标示 -->
