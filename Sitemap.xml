@@ -1,0 +1,32 @@
+---
+title: sitemap.xml
+permalink: sitemap.xml
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset>
+
+    <url>
+        <loc>http://liangqingyu.com</loc>
+        <lastmod>{{ site.time | date: "%Y-%m-%d" }}</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+
+    {% for post in site.posts %}
+    <url>
+        <loc>http://liangqingyu.com{{ post.url }}/</loc>
+        <lastmod>{{ post.date | date: "%Y-%m-%d" }}</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    {% endfor %}
+
+    {% for page in site.html_pages %}
+    <url>
+        <loc>http://liangqingyu.com{{ page.url }}</loc>
+        <lastmod>{{ site.time | date: "%Y-%m-%d" }}</lastmod>
+        {% if page.changefreq %}<changefreq>{{ page.changefreq }}</changefreq>{% endif %}
+        {% if page.priority %}<priority>{{ page.priority }}</priority>{% endif %}
+    </url>
+    {% endfor %}
+</urlset>
