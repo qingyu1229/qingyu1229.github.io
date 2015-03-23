@@ -133,8 +133,16 @@ while (it.hasNext()) {
 //  domain=localhost
 {% endhighlight %}
 
+##1.1.4. HTTP实体
+Http消息可以携带http实体，这个http实体既可以是附加在HTTP请求上的，也可以是http响应后返回的。Http实体，可以在某些http请求或者响应中发现，但不是必须的。Http规范中定义了两种包含请求的方法：POST和PUT。HTTP响应一般会包含一个内容实体。当然这条规则也有异常情况，如Head方法的响应，204没有内容，304没有修改或者205内容资源重置。
+HttpClient根据来源的不同，划分了三种不同的Http实体内容。
+•	streamed: Http内容是通过流来接受或者generated on the fly。特别是，streamed这一类包含从http响应中获取的实体内容。一般说来，streamed实体是不可重复的。
+•	self-contained: 存在于内存中或者与其他的实体相关。self-contained类型的实体内容通常是可重复的。这种类型的实体通常用于关闭http请求。
+•	wrapping: 这种类型的内容是从另外的http实体中获取的。
+当从Http响应中读取内容时，上面的三种区分对于连接管理器来说是非常重要的。请求类的实体通常由应用程序创建，由HttpClient发送给服务器，在请求类的实体中，streamed和self-contained两种类型的区别就不重要了。在这种情况下，一般认为不可重复的实体是streamed类型，可重复的实体时self-contained。
 
-
+##1.1.4.1. 可重复的实体
+一个实体是可重复的，也就是说它的包含的内容可以被多次读取。这种多次读取只有self contained（自包含）的实体能做到（比如ByteArrayEntity或者StringEntity)。
 
 
 
