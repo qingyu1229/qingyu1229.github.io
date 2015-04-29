@@ -22,7 +22,7 @@ head插件：
 ![Elasticsearch的Head插件](/res/img/blogimg/2015/ES/ES_head.png)
 
 中文分词器插件：
-选用的是IK分词器，在https://github.com/medcl/elasticsearch-analysis-ik上有专门为Elasticsearch做好了封装的IK分词器，但是并没有针对最新版本的，如果使用旧版本的IK插件将会报错
+选用的是IK分词器，在https://github.com/medcl/elasticsearch-analysis-ik 上有专门为Elasticsearch做好了封装的IK分词器，但是并没有针对最新版本的，如果使用旧版本的IK插件将会报错
 需要将源代码down下来，修改pom.xml中的Elasticsearch的版本信息后重新打包。
 1、在ES安装目录下的plugins下面新建analysis-ik目录，将打包好的elasticsearch-analysis-ik-1.5.1.jar拷贝到这个目录下，然后再将HTTPClient和Httpcore两个jar拷贝到此。
 2、将打包后的Jar文件拷贝到ES安装目录的lib目录下
