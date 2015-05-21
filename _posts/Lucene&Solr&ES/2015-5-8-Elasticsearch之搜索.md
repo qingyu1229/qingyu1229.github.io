@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Elasticsearch之按词语搜索
+title: Elasticsearch之搜索
 category: Lucene&Solr&ES
 date: 2015-5-8
 math: true
