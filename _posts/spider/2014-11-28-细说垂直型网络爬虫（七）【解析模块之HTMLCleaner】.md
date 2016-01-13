@@ -10,6 +10,8 @@ date: 2014-11-28
 
 标签： 网络爬虫 抓取模块 解析 Parser HTMLCleaner
 
+网络爬虫技术交流，请加QQ群：235971260
+
 ##HTMLcleaner是什么
 HtmlCleaner是一个开源的Java语言的Html文档解析器，用户可以提供自定义tag和规则组来进行过滤和匹配。与Jsoup使用Css Query来选
 择元素不同，HtmlCleaner通过Xpath来选择元素。
